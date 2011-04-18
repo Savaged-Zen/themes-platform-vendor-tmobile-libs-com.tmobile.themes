@@ -81,6 +81,8 @@ public interface ThemeManager {
     public static final String EXTRA_LIVE_WALLPAPER_COMPONENT = "com.tmobile.intent.extra.theme.LIVE_WALLPAPER_COMPONENT";
     public static final String EXTRA_RINGTONE_URI = "com.tmobile.intent.extra.theme.RINGTONE_URI";
     public static final String EXTRA_NOTIFICATION_RINGTONE_URI = "com.tmobile.intent.extra.theme.NOTIFICATION_RINGTONE_URI";
+    public static final String EXTRA_THEME_COMPATIBILITY_SIGNAL = "com.tmobile.intent.extra.theme.COMPATIBILITY_SIGNAL";
+    public static final String EXTRA_THEME_COMPATIBILITY_BATTERY = "com.tmobile.intent.extra.theme.COMPATIBILITY_BATTERY";
 
     /**
      * The Android ringtone manager returns a null Uri for silent.
